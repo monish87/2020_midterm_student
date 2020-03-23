@@ -4,8 +4,8 @@
 To run these tests on your notebook:
 
 ```
-files = "https://github.com/rpi-techfundamentals/2020_midterm_student/blob/master/tests.zip" 
-!pip install git+https://github.com/carmelabs/Gofer-Grader && wget $files && unzip -o files.zip
+files = "https://github.com/rpi-techfundamentals/2020_midterm_student/raw/master/tests.zip" 
+!pip install git+https://github.com/carmelabs/Gofer-Grader && wget $files && unzip -o tests.zip
 ```
 
 Then later to test:
